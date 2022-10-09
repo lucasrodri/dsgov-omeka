@@ -948,17 +948,17 @@ input[type=checkbox] {
 
   #sort-links-list li:first-child a:before,
 .sort-links-list li:first-child a:before {
-    content: "";
+    content: "\2630"
   }
 
   #sort-links-list li:nth-child(2) a:before,
 .sort-links-list li:nth-child(2) a:before {
-    content: "";
+    content: "\263A";
   }
 
   #sort-links-list li:nth-child(3) a:before,
 .sort-links-list li:nth-child(3) a:before {
-    content: "";
+    content: "\2612";
   }
 
   #sort-links-list .sorting a,
