@@ -979,7 +979,7 @@ input[type=checkbox] {
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: "";
+    content: "\25c0";
     margin-left: 5.25px;
     font-size: 12.25px;
     display: inline-block;
