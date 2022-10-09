@@ -1,0 +1,56 @@
+.rounded {
+  border-radius: 5px;
+}
+
+.linkTitulo {
+  text-decoration: none;
+  color: black;
+}
+
+.linkTitulo:hover {
+  text-decoration: none;
+  color: #1351b4;
+}
+
+/* Para ajustes no alto contraste da acessibilidade */
+
+.br-item-accessiblity {
+  background-color: transparent !important;
+  font-size: 15px;
+}
+
+
+/* Para ajustes filho ser maior que o pai */
+.slider-govbr{
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+  right: calc(-50vw + 50%);
+}
+
+.span-govbr{
+  color: var(--color-secondary-08);
+  cursor: default;
+  font-size: var(--font-size-scale-down-01);
+  font-weight: var(--font-weight-medium);
+  padding: 0 0 0 var(--spacing-scale-base);
+  white-space: nowrap;
+}
+
+.dsgov-omeka-items-show {
+  margin-top: 164px !important;
+}
+
+.dsgov-omeka-items-show-breadcrumb{
+  margin-top: 114px;
+  z-index: 100000;
+  position: relative;
+}
+
+.dsgov-omeka-title{
+  margin: auto;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 55px;
+}
